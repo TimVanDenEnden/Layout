@@ -1,0 +1,453 @@
+body {
+    margin: 0px;
+    background: #232937;
+    font-family: arial;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+
+    /* Opmaak van de header */
+    background: #232937;
+}
+
+img.JailbreakProofIos10 {
+    width: 200px;
+    height: 280px;
+    float: left;
+    margin-right: 10px;
+}
+
+div.HeaderContainer {
+    max-width: 800px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+img.Logo {
+    height: 100px;
+    width: 260px;
+    float: left;
+    margin: -15px 0px 12px 0px;
+} 
+
+nav {
+    width: 100%;
+    min-height: 50px;
+    background: #d4d9dc;
+    /*background: #232937;*/
+    display: flex;
+    position: relative;
+}
+
+div.NavMainContainer {
+    max-width: 800px;
+    margin: 0px auto;
+    min-height: 20px;
+    width: 100%;
+    padding: 3px;
+
+}
+
+div.navRight {
+    display:none;
+    margin: 0px auto;
+    min-height: 0px;
+    background: #d4d9dc;
+    width: 0px;
+    float: right;
+    transition: 0.3s ease;
+
+}
+
+a.navButton {
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    padding-left: 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 48px;
+    float: left;
+    font-family: arial;
+    transition: 0.3s ease;
+    font-weight: bold;
+
+}
+
+a.navButton:hover {
+    text-decoration: none;
+    font-size: 17px;
+    color: #232937;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
+div.containerMidden {
+    max-width: 800px;
+    margin: 0px auto;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-flex: 0 1 auto;
+
+}
+
+div.content {
+    width: 100%;
+    background: #eee;
+    padding-bottom: 45px;
+}
+
+section.articles {
+    width: 75%;
+    min-height: 100px;
+
+
+    /* Opmaak van de section */
+    background: #fff;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+section.articles article {
+    -webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 40px; /* Safari 6.1+ */
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    max-width: 50%;
+    padding: 10px;
+}
+
+section.articles article.page2 {
+    -webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 40px; /* Safari 6.1+ */
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 40px;
+    min-width: 100%;
+    padding: 10px;
+}
+
+article.topRow {
+    border-bottom: 1px solid #bbb; 
+}
+
+article.bottomRow {
+    border-bottom: 0px solid #bbb; 
+}
+
+div.row {
+    -webkit-display: flex;
+    flex-direction: row; 
+
+    display: flex;
+    width: 100%;
+    flex: 0 0 auto;
+
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-flex: 0 0 auto;
+    justify-content: space-between;
+}
+
+aside {
+    width: 25%;
+    min-height: 100px;
+    display: flex;
+
+    /* Opmaak van de aside */
+    background: #FEFFCC;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+div.ReclameSpot {
+    padding: 10px;
+    margin: auto auto;
+}
+
+footer {
+    border-top: 1px solid #bbb;
+    width: 100%;
+    height: 100px;
+    background: #232937;
+}
+
+span.iconHome {
+    background: url(../images/homeIcon.png) no-repeat;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+/* effect hover homeIcon*/
+span.iconHome:hover img {
+    opacity: 0;
+}
+
+span.iconHome img {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+img.navHomeIcon {
+    height: 40px;
+    width: 40px;
+}
+
+h1.title {
+    line-height: 24px;
+    margin: 10px 10px 10px 0px;
+    font-family: arial;
+    font-size: 24px;
+}
+
+img.JailbreakIcon {
+    width: 100px;
+    height: 100px;
+    float: right;
+    transform: rotate(10deg);
+    margin: 0px 30px 0px 0px;
+}
+
+img.AppleIcon {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin: 0px 30px 0px 0px;
+}
+
+img.CodeIcon {
+    width: 140px;
+    height: 130px;
+    float: right;
+    margin: 0px 6px 0px 0px;
+    margin-bottom: -6px;
+}
+
+img.PcIcon {
+    width: 140px;
+    height: 130px;
+    float: right;
+    margin: 0px 6px 0px 0px;
+    margin-bottom: -6px;
+}
+
+button.Info {
+    margin-top: 10px;
+    width: 275px;
+    background: #232937;
+    color: #fff;
+    border: 1px solid #232937;
+    height: 30px;
+    font-size: 15px;
+}
+
+a.Info {
+    margin-top: 39px;
+    background: #232937;
+    color: #fff;
+    border: 1px solid #232937;
+    height: 30px;
+    font-size: 15px;
+    width: 236px;
+    display: block;
+    padding: 7px;
+    height: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+a.Info3 {
+    margin-top: 57px;
+    background: #232937;
+    color: #fff;
+    border: 1px solid #232937;
+    height: 30px;
+    font-size: 15px;
+    width: 236px;
+    display: block;
+    padding: 7px;
+    height: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+a.Info2 {
+    margin-top: 63px;
+    background: #232937;
+    color: #fff;
+    border: 1px solid #232937;
+    font-size: 15px;
+    width: 236px;
+    display: block;
+    padding: 7px;
+    height: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+
+}
+
+a.Info:hover, a.Info2:hover, a.Info3:hover {
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+div.CopyRight {
+    margin: 0px auto;
+    width: 220px;
+    padding: 10px;
+    color: #d4d9dc;
+    font-weight: bold;
+}
+
+p.content {
+    margin-bottom: 5px;
+}
+
+
+/* Ander  scherm format */
+
+@media (max-width: 800px) {
+    div section.articles article {
+        max-width: 100%;
+    }
+
+    div.row {
+        -webkit-display: flex;
+        flex-direction: column; 
+    }
+
+    div.content {
+        padding-bottom: 0px;
+    }
+
+    div.navRight {
+        display:block;
+        max-width: 50px;
+        margin: 0px auto;
+        min-height: 20px;
+        width: 100%;
+        padding: 3px;
+        float: right;
+        position: relative;
+
+    } 
+    div.ContainerNav {
+        height: 0px;
+        overflow: hidden;
+        padding: 0px;
+        opacity: 0;
+        transition: 0.5s ease;
+        position: absolute;
+        margin-top: 46px;
+        width: 100%;
+        left: 0;
+    } 
+
+    div.ContainerNav.active {
+        height: 50px;
+        overflow: hidden;
+        padding: 0px;
+        opacity: 1;
+        background: #697184;
+
+    } 
+
+    span.Hamburger {
+        border-top: 2px solid #fff;
+        width: 20px;
+        height: 0px;
+        margin: 16px 15px 2px;
+        display: inline-block;
+        position: absolute;
+        transition: 0.3s ease;
+
+    }
+
+    span.Hamburger2 {
+        border-top: 2px solid #fff;
+        width: 20px;
+        height: 10px;
+        margin: 23px 0px 0px 15px;
+        display: inline-block;
+        position: absolute;
+        transition: 0.3s ease;
+    }
+
+    div.navRight.active {
+        background: #697184; 
+    }
+
+    div.navRight.active  span.Hamburger {
+        transform: rotate(45deg);
+        margin-top: 18px;
+        position: absolute;
+    }
+
+    div.navRight.active  span.Hamburger2 {
+        transform: rotate(-45deg);
+        margin-top: 17px;
+        margin-left: 18px;
+        position: absolute; 
+    }
+
+    article.bottomRow {
+        border-bottom: 1px solid #bbb; 
+    }
+
+    section.articles {
+        width: 100%;
+    }
+
+    aside {
+        width: 0%;
+    }
+
+    a.Info {
+        margin-top: 10px;
+    }
+
+    a.Info3 {
+        margin-top: 10px;
+    }
+
+    a.Info2 {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    a.Info2 {
+        padding-left: 7px;
+        width: 250px;
+    }
+
+    a.Info3 {
+        padding-left: 10px;
+        width: 250px;
+    }
+
+    a.Info {
+        padding-left: 10px;
+        width: 250px;
+    }
+}

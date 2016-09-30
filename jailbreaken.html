@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		
+		jQuery(document).ready(function(){
+
+			jQuery('.navRight').on('click', function(){
+
+				jQuery(this).toggleClass('active');
+				jQuery('.ContainerNav').toggleClass('active');
+			});
+		});
+	</script>
+	<title>T1mINC | 2016</title>
+</head>
+<body>
+
+<header>
+	<div class="HeaderContainer">
+		<img class="Logo" src="assets/images/T1mINCheader.png" />
+	</div>
+</header>
+<nav>
+
+	<div class="NavMainContainer">
+			<a  class="navButton" href="index.html"><span class="iconHome"><img class="navHomeIcon" src="assets/images/homeIconWit.png"></span></a>
+			<div class="ContainerNav">
+					<a class="navButton" href="Hobbys.html">Mijn Hobby's</a>
+					<a class="navButton" href="error404page.html">Nieuws</a>
+			</div>
+	</div>
+	<div class="navRight">
+		<span class="Hamburger"></span>
+		<span class="Hamburger2"></span>
+	</div>		
+</nav>
+
+<div class="content">
+	<div class="containerMidden">
+		<section class="articles">
+			<div class="row">
+				<article class="topRow, page2">
+					<h1 class="title">Jailbreaken</h1>
+					<img class="JailbreakIcon" src="assets/images/JailbreakIcon.png">
+					<p class="content">
+						Ios 10.0.1 is uit op het moment is de jailbreak nog niet publiek! <br />
+						Echter is er wel bewijs dat Ios 10.0.1 jailbreak mogelijk is in beta versies!
+					</p>
+
+					<img class="JailbreakProofIos10" src="assets/images/JailbreakProofIos10.png" />
+
+					<p class="content">
+						Echter is er wel een Jailbreak voor Ios 9.3 / 9.3.3 beschikbaar van Pangu!
+						<ul>
+							<li><a href="http://pangu8.com/933.html">Klik Hier voor meer info over Jailbreak Ios 9.3 / 9.3.3</a></li>
+						</ul>
+
+					</p>
+					
+				</article>
+			</div>
+		</section>
+		<aside>
+			<div class="ReclameSpot">
+				<center><b>ReclameSpot</b></center>
+				<center>Wilt u deze plek?</center>
+			</div>
+		</aside>
+	</div>
+</div>
+
+
+<footer>
+	<div class="CopyRight">
+		CopyRight by T1mINC - 2016
+	</div>
+</footer>
+
+</body>
+</html>
